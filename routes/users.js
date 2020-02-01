@@ -26,7 +26,7 @@ router.get('/', function (req, res, next) {
 
 router.get('/generate', function (req, res, next) {
     let pulmino = []; //new Array()
-    for (let index = 0; index < 5; index++) {
+    for (let index = 0; index < 10; index++) {
         pulmino.push(createFakePerson());
     }
 
@@ -40,4 +40,3 @@ router.get('/generate', function (req, res, next) {
 
 
 module.exports = router;
-
